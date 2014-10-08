@@ -27,6 +27,7 @@ var board = {
 				board.cells[row][col].removeEventListener('click', board.click_handler)
 			}
 		}
+		alert('Player ' + board.current_player + ' wins!')
 	},
 	reset: function(){
 		document.querySelector('.container').innerHTML = '';
