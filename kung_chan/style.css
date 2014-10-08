@@ -1,0 +1,24 @@
+* {
+}
+
+.container {
+	padding: 100px;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.cell {
+	border: 1px solid gray;
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+
+.player1 {
+	background-color: blue;
+}
+
+.player2 {
+	background-color: red;
+}
